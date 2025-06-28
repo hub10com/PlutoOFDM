@@ -15,7 +15,6 @@ PlutoOFDM, ADALM-Pluto SDR donanımı kullanılarak OFDM haberleşme sistemleri 
 - **Config/** → Sistem parametre dosyaları
 - **Sim/** → Simülasyonlar (ör. BPSK, QAM + konvülasyonel kodlama)
 - **Utils/** → Yardımcı fonksiyonlar (ör. GMM modelleme)
-- **Docs/** → Proje ile ilgili görseller, şemalar ve belgeler 
 
 ## Gereksinimler
 - MATLAB R202x (Communications Toolbox ile)
