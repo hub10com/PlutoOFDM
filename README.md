@@ -18,7 +18,7 @@ PlutoOFDM, ADALM-Pluto SDR donanımı kullanılarak OFDM haberleşme sistemleri 
 
 ## Gereksinimler
 - MATLAB R202x (Communications Toolbox ile)
-- 2 adet ADALM-Pluto SDR cihazı
+- 2-3 adet ADALM-Pluto SDR cihazı
 
 ## Kullanım
 1️) Pluto SDR cihazlarınızı kurun ve bağlantısını sağlayın.  
