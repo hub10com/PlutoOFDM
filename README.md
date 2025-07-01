@@ -31,3 +31,6 @@ Bu proje herhangi bir lisans içermemekte olup yalnızca akademik çalışma ama
 
 ## İletişim
 Proje ile ilgili tüm sorular için lütfen [GitHub üzerinden iletişime geçin](https://github.com/hub10com/PlutoOFDM/issues).
+
+## Proje Test Videoları
+https://drive.google.com/drive/folders/1PA7n5LBGxDn2OwmkoXzPLhVssn8M6ggE
