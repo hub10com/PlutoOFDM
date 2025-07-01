@@ -1,3 +1,6 @@
+## Proje Test Videoları
+- Test videoları youtube yerine aşağıdaki drive klasörüne yüklenmiştir. 
+https://drive.google.com/drive/folders/1PA7n5LBGxDn2OwmkoXzPLhVssn8M6ggE
 # PlutoOFDM
 
 PlutoOFDM, ADALM-Pluto SDR donanımı kullanılarak OFDM haberleşme sistemleri ile adaptif ve adaptif olmayan frekans atlama yöntemlerinin, jammer etkisinden kaçınma amacıyla MATLAB ortamında geliştirilmesi ve test edilmesi için oluşturulmuş bir projedir. Bu çalışma, Hub10 proje ekibi tarafından Teknofest Kablosuz Haberleşme Yarışması kapsamında yürütülen bir akademik proje niteliğindedir.
@@ -32,5 +35,3 @@ Bu proje herhangi bir lisans içermemekte olup yalnızca akademik çalışma ama
 ## İletişim
 Proje ile ilgili tüm sorular için lütfen [GitHub üzerinden iletişime geçin](https://github.com/hub10com/PlutoOFDM/issues).
 
-## Proje Test Videoları
-https://drive.google.com/drive/folders/1PA7n5LBGxDn2OwmkoXzPLhVssn8M6ggE
