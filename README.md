@@ -1,38 +1,37 @@
-## Proje Test Videoları
-- Test videolarının tamamı youtube platformunun yayın politikaları sebebiyle yayınlanamamış, tamamı aşağıdaki drive klasörüne yüklenmiştir. 
+## Project Test Videos
+- Due to YouTube's publishing policies, the full set of test videos could not be uploaded there. Instead, they are available in the following Google Drive folder:  
 https://drive.google.com/drive/folders/1PA7n5LBGxDn2OwmkoXzPLhVssn8M6ggE
 
 # PlutoOFDM
 
-PlutoOFDM, ADALM-Pluto SDR donanımı kullanılarak OFDM haberleşme sistemleri ile adaptif ve adaptif olmayan frekans atlama yöntemlerinin, jammer etkisinden kaçınma amacıyla MATLAB ortamında geliştirilmesi ve test edilmesi için oluşturulmuş bir projedir. Bu çalışma, Hub10 proje ekibi tarafından Teknofest Kablosuz Haberleşme Yarışması kapsamında yürütülen bir akademik proje niteliğindedir.
+PlutoOFDM is a project developed to design and test OFDM communication systems with adaptive and non-adaptive frequency hopping methods using ADALM-Pluto SDR hardware in MATLAB, aiming to avoid jammer interference. This work is carried out by the Hub10 project team within the scope of the Teknofest Wireless Communication Competition as an academic project.
 
-## Özellikler
-- OFDM çerçeve üretimi, modülasyon ve iletim
-- Pluto SDR ile canlı kablosuz haberleşme
-- Jammer (karıştırıcı) tespiti ve uyarlanabilir frekans atlama (FHSS)
-- GMM tabanlı SNR ve jammer analiz mekanizmaları
-- Yapılandırılmış sınıf, script ve yardımcı fonksiyon dizini
+## Features
+- OFDM frame generation, modulation, and transmission
+- Real-time wireless communication with Pluto SDR
+- Jammer detection and adaptive frequency hopping (FHSS)
+- GMM-based SNR and jammer analysis mechanisms
+- Structured directory of classes, scripts, and helper functions
 
-## Proje Yapısı
-- **Classes/** → Ana sınıf dosyaları (ör. `OFDMPlutoRX`, `OFDMPlutoTX`, `ModulationMapper`)
-- **Scripts/** → Test ve çalıştırma betikleri (ör. `ofdmPlutoTransmitter.m`, `ofdmPlutoReceiver.m`)
-- **Config/** → Sistem parametre dosyaları
-- **Sim/** → Simülasyonlar (ör. BPSK, QAM + konvülasyonel kodlama)
-- **Utils/** → Yardımcı fonksiyonlar (ör. GMM modelleme)
+## Project Structure
+- **Classes/** → Main class files (e.g., `OFDMPlutoRX`, `OFDMPlutoTX`, `ModulationMapper`)
+- **Scripts/** → Test and execution scripts (e.g., `ofdmPlutoTransmitter.m`, `ofdmPlutoReceiver.m`)
+- **Config/** → System parameter files
+- **Sim/** → Simulations (e.g., BPSK, QAM + convolutional coding)
+- **Utils/** → Helper functions (e.g., GMM modeling)
 
-## Gereksinimler
-- MATLAB R202x (Communications Toolbox ile)
-- 2-3 adet ADALM-Pluto SDR cihazı
+## Requirements
+- MATLAB R202x (with Communications Toolbox)
+- 2–3 ADALM-Pluto SDR devices
 
-## Kullanım
-1️) Pluto SDR cihazlarınızı kurun ve bağlantısını sağlayın.  
-2️) Verici için `Scripts/ofdmPlutoTransmitter.m` dosyasını çalıştırın.  
-3️) Alıcı için `Scripts/ofdmPlutoReceiver.m` ya da `Scripts/ofdmPlutoReceiverMinimal.m` dosyasını çalıştırın.  
-4️) Jammer tespiti ve FHSS için ilgili scriptleri kullanabilirsiniz (`jammerDetection.m`, `ofdmFHSSTestTX.m` vb.)
+## Usage
+1️) Set up and connect your Pluto SDR devices.  
+2️) Run `Scripts/ofdmPlutoTransmitter.m` for the transmitter.  
+3️) Run `Scripts/ofdmPlutoReceiver.m` or `Scripts/ofdmPlutoReceiverMinimal.m` for the receiver.  
+4️) Use the related scripts for jammer detection and FHSS (`jammerDetection.m`, `ofdmFHSSTestTX.m`, etc.).
 
-## Not
-Bu proje herhangi bir lisans içermemekte olup yalnızca akademik çalışma amacıyla geliştirilmiştir.
+## Note
+This project does not include any license and has been developed solely for academic purposes.
 
-## İletişim
-Proje ile ilgili tüm sorular için lütfen [GitHub üzerinden iletişime geçin](https://github.com/hub10com/PlutoOFDM/issues).
-
+## Contact
+For any questions regarding the project, please [open an issue on GitHub](https://github.com/hub10com/PlutoOFDM/issues).
